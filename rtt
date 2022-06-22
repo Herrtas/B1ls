@@ -1,0 +1,26 @@
+{
+    "name": "Prototip_B1ls",
+    "id": "/subscriptions/9ede3837-f0f2-43a6-9bd5-d2fa0a647bd6/resourceGroups/ProxUS2/providers/Microsoft.Compute/images/Prototip_B1ls",
+    "type": "Microsoft.Compute/images",
+    "location": "uksouth",
+    "tags": {},
+    "properties": {
+        "sourceVirtualMachine": {
+            "id": "/subscriptions/9ede3837-f0f2-43a6-9bd5-d2fa0a647bd6/resourceGroups/PROXUS2/providers/Microsoft.Compute/virtualMachines/Pro2"
+        },
+        "storageProfile": {
+            "osDisk": {
+                "osType": "Linux",
+                "osState": "Generalized",
+                "diskSizeGB": 30,
+                "managedDisk": {
+                    "id": "/subscriptions/9ede3837-f0f2-43a6-9bd5-d2fa0a647bd6/resourceGroups/ProxUS2/providers/Microsoft.Compute/disks/Pro2_disk1_264a400ae10c493ab8ceb96f390dcf85"
+                },
+                "caching": "ReadWrite",
+                "storageAccountType": "Premium_LRS"
+            },
+            "dataDisks": []
+        },
+        "provisioningState": "Succeeded"
+    }
+}
